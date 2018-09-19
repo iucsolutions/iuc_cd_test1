@@ -1,0 +1,27 @@
+<channel
+   name="Tutorial: Web server"
+   guid="F12503AB3B9D14F7D6C0AF7D4F62B391"
+   description="Sample web server to receive patient demographics records and insert them into database."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="Tutorial_Web_server-FromHTTP-phyzieZ75QlFXR"
+      commit_id="47bc32da1496a24d09f500b2a41237e0e7393dfa"
+      commit_comment="Import Translators: imported channels"
+      mapper_url_path="tutorial"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>

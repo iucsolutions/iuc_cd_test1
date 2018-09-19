@@ -1,0 +1,16 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "db",
+        "node"
+    ],
+    "OtherDependencies": [
+        "training_tables.vmd"
+    ],
+    "timestamp": "1536339154",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
